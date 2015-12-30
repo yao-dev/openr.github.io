@@ -1,0 +1,228 @@
+html,body{
+  	height:100%;
+}
+
+body{
+  	padding-top:50px; /*padding for navbar*/
+}
+
+.navbar-custom .icon-bar {
+	background-color:#fff;
+}
+
+.navbar-custom {
+    background-color: #EF4836;
+    color:#fff;
+}
+
+.navbar-custom li>a:hover,.navbar-custom li>a:focus {
+    background-color:#D91E18;
+}
+
+.navbar-custom a{
+    color:#fefefe;
+}
+
+.navbar-custom .form-control:focus {
+	border-color: #49bfff;
+	outline: 0;
+	-webkit-box-shadow: inset 0 0 0;
+	box-shadow: inset 0 0 0;
+}
+
+#main, #main>.row {
+	height:100%;
+}
+
+#main>.row {
+    overflow-y:scroll;
+}
+
+#left {
+	height:100%;
+}
+
+#map-canvas {
+	width:33.3333%;
+    height:calc(100% - 0);
+    position:absolute;
+    right:16px;
+    top:50px;
+    bottom:0;
+    overflow:hidden;
+}
+
+#departure
+{
+    width: 1620px;
+}
+
+#place
+{
+    width: 980px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+#place div
+{
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+    /*font-size: 1.4em;*/
+}
+
+#place p
+{
+    position: relative;
+    top: 105px;
+    font-size: 1.4em;
+}
+
+.restaurant, .movie, .monument, .store, .hospital, .doctor, .spa, .hair, .lodging, .bank, .local-store, .gas_station
+{
+    background-repeat: no-repeat;
+    background-size: 230px 230px;
+}
+
+.restaurant
+{
+    background-image: url(../img/resto3.jpg);
+}
+.movie
+{
+    background-image: url(../img/cinema.jpg);
+}
+.monument
+{
+    background-image: url(../img/monument.jpg);
+}
+.store
+{
+    background-image: url(../img/magasin.jpg);
+}
+.hospital
+{
+    background-image: url(../img/hopital.jpg);
+}
+.doctor
+{
+    background-image: url(../img/medecin.jpg);
+}
+.spa
+{
+    background-image: url(../img/spa.jpg);
+}
+.hair
+{
+    background-image: url(../img/coiffeur.jpg);
+}
+.lodging
+{
+    background-image: url(../img/hotel.jpg);
+}
+.bank
+{
+    background-image: url(../img/banque.jpg);
+}
+.local-store
+{
+    background-image: url(../img/proximite.jpg);
+}
+.gas_station
+{
+    background-image: url(../img/station.jpg);
+}
+
+#place div
+{
+   transition: 1s;
+}
+
+#place div:hover
+{
+   background-size: 250px 250px;
+}
+
+.place-1
+{
+    width: 600px;
+    height: 225px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 0 6px gray;
+    position: relative;
+}
+
+.place-1 .thumb, .place-1 p
+{
+    float: left;
+    display: inline-block;
+}   
+
+.place-1 .thumb
+{
+    width: 150px;
+    height: 100%;
+    margin-right: 15px;
+}   
+
+.title-place
+{
+    font-weight: bold;
+}
+
+.place-1 p
+{
+    margin: 0;
+    width: 350px;
+}   
+
+.place-1 .btn
+{
+    float: right;
+    margin-left: 5px;
+    position: relative;
+    top: 25px;    
+}   
+
+#list-place, #result
+{
+    display: inline-block;
+}
+
+#result
+{
+    width: 570px;
+    margin-right: 10px;
+    float: right;
+}
+
+#content-result
+{
+    padding: 10px;
+    box-shadow: 0 0 6px gray;
+}
+
+.author
+{
+    font-weight: bold;
+}
+
+.travelmode
+{
+    margin: 0;
+    padding: 0;
+}
+
+.travelmode li
+{
+    float: left;
+    list-style: none;
+}
