@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['id'])){
-	echo file_get_contents('https://maps.googleapis.com/maps/api/place/details/json?placeid='.$_POST["id"].'&key=AIzaSyBs9zjQSzUTMmQ-z2XSy4fCYinprrw8XqQ');
+	echo file_get_contents('https://maps.googleapis.com/maps/api/place/details/json?placeid='.$_POST["id"].'&key=API_KEY');
 }
 
 // if(isset($_POST['origin'] && $_POST['destination'])){
